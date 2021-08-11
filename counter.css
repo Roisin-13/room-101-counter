@@ -1,0 +1,82 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#bodyodyody {
+	height: 100vh;
+    background-image: url(https://assets-eu-01.kc-usercontent.com/bcd02f72-b50c-0179-8b4b-5e44f5340bd4/1c94d79b-a651-47df-aeb2-d7fce7570a22/george-orwell-quotes-header-min.jpg);    
+    background-repeat: repeat-y;
+    background-size: contain;
+    opacity: 0.50;
+}
+/*--------header-----------*/
+.heady1 {
+	display: block;
+	background-color: lightgrey;
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+	font-size: 40px;
+	color: black;
+	width: 100%;
+	height: 150px;
+	padding: 50px;
+}
+/*--------text and buttons-----------*/
+.boxnbtn {
+	display: flex;
+    flex-direction: column;
+	margin: auto;
+	height: 300px;
+    /*border: 4px solid purple;*/
+}
+.number {
+    display: block;
+    /*border: 4px solid purple;*/
+    text-align: center;
+    margin: 10px;
+}
+#numChange {
+	display: block;
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+	font-size: 200px;
+    font-weight: bolder;
+	color: black;
+    text-shadow: 2px 2px 8px red;
+	/*height: 50px;
+	width: 200px;
+	/*margin-top: 100px;*/
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+.btnUp {
+	display: block;
+	align-self: center;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	padding: 10px;
+	color: Gainsboro;
+	background-color: black;
+	border-radius: 15%;
+}
+.btnDown {
+	display: block;
+	align-self: center;
+	/*margin-top: 100px;*/
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	padding: 10px;
+	color: Gainsboro;
+	background-color: black;
+	border-radius: 15%;
+}
+
